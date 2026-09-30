@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { poppins, satoshi } from "@/src/styles/fonts";
+import { poppins, satoshi } from "@/styles/fonts";
 
 export const metadata: Metadata = {
   title: "ByteSpace",

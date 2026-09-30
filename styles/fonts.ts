@@ -4,11 +4,11 @@ import { Poppins } from "next/font/google";
 export const satoshi = localFont({
     src: [
         {
-            path: "../../public/fonts/Satoshi-Variable.ttf",
+            path: "../public/fonts/Satoshi-Variable.ttf",
             style: "normal",
         },
         {
-            path: "../../public/fonts/Satoshi-VariableItalic.ttf",
+            path: "../public/fonts/Satoshi-VariableItalic.ttf",
             style: "italic",
         },
     ],
