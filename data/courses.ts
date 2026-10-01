@@ -1,8 +1,20 @@
-export const courses = [
+export interface Course {
+  title: string;
+  creator: string;
+  image: string;
+  lessons: string;
+  duration: string;
+  comments: string;
+  rating: string;
+  level: string;
+  price: string;
+}
+
+export const courses: Course[] = [
   {
     title: "Learn Figma from Basic",
     creator: "purepearl studio",
-    image: "/images/course-figma.png",
+    image: "/images/course-figma.jpg",
     lessons: "17 Lessons",
     duration: "2 hours 16 mins",
     comments: "59 Comments",
@@ -10,11 +22,10 @@ export const courses = [
     level: "Beginner",
     price: "$25",
   },
-
   {
     title: "Build Digital Asset",
     creator: "purepearl studio",
-    image: "/images/course-assets.png",
+    image: "/images/course-assets.jpg",
     lessons: "17 Lessons",
     duration: "2 hours 16 mins",
     comments: "59 Comments",
@@ -22,12 +33,10 @@ export const courses = [
     level: "Beginner",
     price: "$25",
   },
-
-
   {
     title: "The Power of Big Data",
     creator: "purepearl studio",
-    image: "/images/course-bigdata.png",
+    image: "/images/course-bigdata.jpg",
     lessons: "17 Lessons",
     duration: "2 hours 16 mins",
     comments: "59 Comments",
@@ -35,12 +44,10 @@ export const courses = [
     level: "Beginner",
     price: "$25",
   },
-
-
   {
     title: "Balancing Productivity and Self Care",
     creator: "purepearl studio",
-    image: "/images/course-productivity.png",
+    image: "/images/course-productivity.jpg",
     lessons: "17 Lessons",
     duration: "2 hours 16 mins",
     comments: "59 Comments",
@@ -48,12 +55,10 @@ export const courses = [
     level: "Beginner",
     price: "$25",
   },
-
-
   {
     title: "Mastering Money Management",
     creator: "purepearl studio",
-    image: "/images/course-money.png",
+    image: "/images/course-money.jpg",
     lessons: "17 Lessons",
     duration: "2 hours 16 mins",
     comments: "59 Comments",
@@ -61,12 +66,10 @@ export const courses = [
     level: "Beginner",
     price: "$25",
   },
-
-
   {
     title: "From Idea to Startup Success",
     creator: "purepearl studio",
-    image: "/images/course-startup.png",
+    image: "/images/course-startup.jpg",
     lessons: "17 Lessons",
     duration: "2 hours 16 mins",
     comments: "59 Comments",
