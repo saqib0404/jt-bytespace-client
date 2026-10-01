@@ -2,6 +2,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 import Hero from "@/sections/home/Hero";
+import LogoStrip from "@/sections/home/LogoStrip";
 import Courses from "@/sections/home/Courses";
 import LearningPaths from "@/sections/home/LearningPaths";
 import GrowthSection from "@/sections/home/GrowthSection";
@@ -15,6 +16,8 @@ export default function Home() {
 
       <main>
         <Hero />
+
+        <LogoStrip />
 
         <Courses />
 

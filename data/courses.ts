@@ -8,6 +8,8 @@ export interface Course {
   rating: string;
   level: string;
   price: string;
+  avatars: string[];
+  studentsCount: string;
 }
 
 export const courses: Course[] = [
@@ -21,6 +23,13 @@ export const courses: Course[] = [
     rating: "4.5",
     level: "Beginner",
     price: "$25",
+    avatars: [
+      "/images/testimonial-james.png",
+      "/images/testimonial-sarah.png",
+      "/images/testimonial-alex.png",
+      "/images/testimonial-james.png",
+    ],
+    studentsCount: "26+",
   },
   {
     title: "Build Digital Asset",
@@ -32,6 +41,13 @@ export const courses: Course[] = [
     rating: "4.5",
     level: "Beginner",
     price: "$25",
+    avatars: [
+      "/images/testimonial-james.png",
+      "/images/testimonial-sarah.png",
+      "/images/testimonial-alex.png",
+      "/images/testimonial-james.png",
+    ],
+    studentsCount: "26+",
   },
   {
     title: "The Power of Big Data",
@@ -43,6 +59,13 @@ export const courses: Course[] = [
     rating: "4.5",
     level: "Beginner",
     price: "$25",
+    avatars: [
+        "/images/testimonial-james.png",
+      "/images/testimonial-sarah.png",
+      "/images/testimonial-alex.png",
+      "/images/testimonial-james.png",
+    ],
+    studentsCount: "26+",
   },
   {
     title: "Balancing Productivity and Self Care",
@@ -54,6 +77,13 @@ export const courses: Course[] = [
     rating: "4.5",
     level: "Beginner",
     price: "$25",
+    avatars: [
+      "/images/testimonial-james.png",
+      "/images/testimonial-sarah.png",
+      "/images/testimonial-alex.png",
+      "/images/testimonial-james.png",
+    ],
+    studentsCount: "26+",
   },
   {
     title: "Mastering Money Management",
@@ -65,6 +95,13 @@ export const courses: Course[] = [
     rating: "4.5",
     level: "Beginner",
     price: "$25",
+    avatars: [
+      "/images/testimonial-james.png",
+      "/images/testimonial-sarah.png",
+      "/images/testimonial-alex.png",
+      "/images/testimonial-james.png",
+    ],
+    studentsCount: "26+",
   },
   {
     title: "From Idea to Startup Success",
@@ -76,5 +113,12 @@ export const courses: Course[] = [
     rating: "4.5",
     level: "Beginner",
     price: "$25",
+    avatars: [
+      "/images/testimonial-james.png",
+      "/images/testimonial-sarah.png",
+      "/images/testimonial-alex.png",
+      "/images/testimonial-james.png",
+    ],
+    studentsCount: "26+",
   },
 ];

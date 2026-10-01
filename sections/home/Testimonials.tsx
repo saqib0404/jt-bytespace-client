@@ -15,11 +15,30 @@ export default function Testimonials() {
 
   return (
     <section
-      className="
-        bg-[radial-gradient(circle_at_82%_10%,rgba(212,251,32,0.40),transparent_30%),radial-gradient(circle_at_0%_100%,rgba(40,114,255,0.22),transparent_34%),#ffffff]
-        py-24
-        sm:py-28
-      "
+      className="relative overflow-hidden py-24 sm:py-28"
+      style={{
+        backgroundColor: "#f7fafc",
+        backgroundImage: `
+      radial-gradient(
+        circle at 48% 18%,
+        rgba(227, 251, 127, 0.9) 2%,
+        rgba(218, 248, 120, 0.18) 22%,
+        rgba(218, 248, 120, 0) 50%
+      ),
+      radial-gradient(
+        circle at 100% 28%,
+        rgba(210, 245, 110, 0.28) 0%,
+        rgba(210, 245, 110, 0) 45%
+      ),
+      radial-gradient(
+        circle at -4% 96%,
+        rgba(197, 209, 244, 0.9) 10%,
+        rgba(215, 230, 255, 0.25) 30%,
+        rgba(255, 255, 255, 0) 60%
+      )
+    `,
+        backgroundRepeat: "no-repeat",
+      }}
     >
       <Container>
         <div className="grid gap-8 lg:grid-cols-2 lg:items-start lg:gap-20">
