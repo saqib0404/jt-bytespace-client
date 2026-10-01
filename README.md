@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ByteSpace New
 
-## Getting Started
+ByteSpace New is a responsive online-learning website recreated from a supplied Figma design as a front-end assessment project.
 
-First, run the development server:
+The implementation focuses on close visual reproduction, reusable React components, responsive behaviour, accessibility, performance, and maintainable project structure.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Status
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The interface includes the complete landing page together with bonus Sign In, Signup, and custom 404 pages.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Production deployment is completed in the final deployment step.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Design
 
-## Learn More
+Figma design:
 
-To learn more about Next.js, take a look at the following resources:
+https://www.figma.com/design/26TBgRjmpuxudcErJsHUfy/ByteSpace-New-Check-website?node-id=0-1&p=f&t=eQOrqJmq6rMG5b6L-0
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Style guide:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+https://www.figma.com/design/26TBgRjmpuxudcErJsHUfy/ByteSpace-New-Check-website?node-id=63-645&p=f&t=AudTe7PMzXRWSUom-0
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js with App Router
+- TypeScript
+- Tailwind CSS v4
+- Framer Motion
+- Lucide React
+- Next.js Image optimization
+- Next.js font optimization
+- Satoshi Variable
+- Poppins
+- Vercel for production deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Features
+
+- Responsive ByteSpace landing page
+- Hero section with course search interface
+- Featured course discovery
+- Data-driven reusable course cards
+- Course category filters
+- Learning-path categories
+- Professional-growth section
+- Creator promotion section
+- Creator call-to-action
+- Community testimonials
+- Responsive navigation
+- Mobile navigation menu
+- Newsletter footer
+- Sign In interface
+- Signup interface
+- Custom 404 interface
+- Shared design tokens
+- Reusable UI components
+- Scroll-reveal animations
+- Reduced-motion support
+- Keyboard-accessible controls
+- Optimized local image assets
+
+## Routes
+
+| Route | Description |
+| --- | --- |
+| `/` | ByteSpace landing page |
+| `/signin` | Sign In interface |
+| `/signup` | Signup interface |
+| Invalid route | Custom ByteSpace 404 page |
+
+## Project Structure
+
+```text
+jt-bytespace-new/
+├── app/
+│   ├── signin/
+│   │   └── page.tsx
+│   ├── signup/
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── not-found.tsx
+│   ├── page.tsx
+│   └── template.tsx
+│
+├── components/
+│   ├── animations/
+│   ├── auth/
+│   ├── layout/
+│   └── ui/
+│
+├── data/
+│   ├── categories.ts
+│   ├── courses.ts
+│   └── testimonials.ts
+│
+├── docs/
+│   └── screenshots/
+│
+├── lib/
+│   └── utils.ts
+│
+├── public/
+│   ├── fonts/
+│   └── images/
+│
+├── sections/
+│   └── home/
+│
+├── styles/
+│   ├── fonts.ts
+│   └── tokens.ts
+│
+└── package.json
